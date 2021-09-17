@@ -1,0 +1,11 @@
+<div>
+  <Input
+    id='input'
+    @type='text'
+    @value={{this.text}}
+    {{on 'keypress' this.enter}}
+  />
+  <button type='button' {{on 'click' this.add}}>
+    Add Todo
+  </button>
+</div>

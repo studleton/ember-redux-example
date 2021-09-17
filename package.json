@@ -66,5 +66,9 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "ember-redux": "^6.0.0",
+    "redux": "^4.1.1"
   }
 }

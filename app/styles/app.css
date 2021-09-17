@@ -1,0 +1,24 @@
+input {
+  background-color: #d1d1d1;
+}
+
+.todo {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: black;
+}
+
+.todo:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.not-active {
+  cursor: pointer;
+  color: blue;
+}

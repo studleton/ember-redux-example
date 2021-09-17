@@ -1,0 +1,5 @@
+<ul>
+  {{#each this.visibleTodos as |todo|}}
+    <Todo @id={{todo.id}} @text={{todo.text}} @completed={{todo.completed}} />
+  {{/each}}
+</ul>
